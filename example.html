@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Example</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="jquery.jquijote.js"></script>
+</head>
+<body>
+	<section>
+		<div id="element"></div>
+		<textarea cols="30" rows="10"></textarea>
+		<p class="sectionFull"></p>
+		<p class="sectionFull"></p>
+		<p class="sectionFull"></p>
+		<p class="sectionFull"></p>
+	</section>
+	<script>
+		$.fn.jquijote({
+			'#element': 20,
+			'textarea': 120,
+			'.sectionFull': 12
+		});
+	</script>
+</body>
+</html>

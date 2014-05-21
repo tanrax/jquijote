@@ -6,9 +6,25 @@
 ### Usage
 
 1. Load jQuery.
+
+```html
+<script src="js/jquery.min.js"></script>
+```
+
 2. Load the flogin plugin.
+
+```html
+<script src="js/jquery.jquijote.js"></script>
+```
+
 3. Invokes the elements where you want to add text and indicates the number of letters.
- 
+
+```html
+$.fn.jquijote({
+	'#element': 45
+});
+```
+
 ### Example
 
 ```html

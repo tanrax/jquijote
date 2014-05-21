@@ -5,19 +5,23 @@
 
 ### Usage
 
-1. Load jQuery.
+1) Load jQuery.
 
 ```html
 <script src="js/jquery.min.js"></script>
 ```
 
-2. Load the flogin plugin.
+2) Load the flogin plugin.
 
 ```html
 <script src="js/jquery.jquijote.js"></script>
 ```
 
-3. Invokes the elements where you want to add text and indicates the number of letters.
+3) In the same directory, put the file *text.json*. Contains a text of Don Quijote, but you can change it to any other work.
+
+
+
+4) Invokes the elements where you want to add text and indicates the number of letters.
 
 ```html
 $.fn.jquijote({
